@@ -31,7 +31,12 @@
    ```bash
    git push
    ```
-   - This uploads your branch to GitHub.
+   - This uploads your branch to GitHub.  
+   - **If this is the first time pushing the branch**, use:
+     ```bash
+     git push --set-upstream origin <branch-name>
+     ```
+     - This sets the upstream branch for future pushes and pulls.
 
 8. **Switch back to the main branch:**
    ```bash
